@@ -156,8 +156,16 @@ a:hover {
 img {
   width: 30px;
   height: 30px;
-
 }
+
+#info {
+  position: absolute;
+  z-index: 9;
+  background: #f1f1f1;
+  text-align: center;
+  cursor: pointer;
+}
+
 
 /* media queries */
 
