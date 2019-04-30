@@ -20,10 +20,6 @@ function openInfo() {
     infoDiv.innerHTML = "You clicked" +where+ "."
 }
 
-// reset button
-
-
-
 
 // Make the DIV element draggable:
 dragElement(document.getElementById("info"));
