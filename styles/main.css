@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    font-family: 'Verdana', sans-serif;
+    font-family: Raleway,'Verdana', sans-serif;
     color: #000;
     background: #7DA5AA;
     margin: 0;
@@ -18,14 +18,21 @@ body {
 
 /* heading and text styles */
 h1 {
-	font-family: 'Georgia', serif;
-	font-size: 2rem;
+	font-family: 'Playfair Display','Georgia', serif;
+	font-size: 2.5rem;
 	font-weight: normal;
 	line-height: 1.5;
 	margin: 0;
 	padding: 2rem 0 1rem 0;
 }
 
+h2 {
+	font-size: 1.3rem;
+	font-weight: normal;
+	line-height: 1.5;
+	margin: 0;
+	padding: 2rem 0 1rem 0;
+}
 
 /* links */
 
@@ -34,20 +41,22 @@ a {
 	text-decoration: underline;
 }
 a:hover {
-	color: #00f;
+	color: #B2697B;
 	text-decoration: none;
 }
 
 /* circles are below */
 #wrapper {
   padding: 300px 50px;
+  height: 750px;
 	background: #FFFCF9;
 }
 
 #second {
   padding: 300px 50px;
-  height: 750px;
   background: #D6A5A5;
+  height: 750px;
+  text-align: center;
 }
 
 #content {
@@ -57,7 +66,7 @@ a:hover {
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
-    background:
+
 }
 
 /* specs for ALL circles */
@@ -76,13 +85,14 @@ a:hover {
     cursor: pointer;
 }
 
-#new {
+button {
     top: 100px;
     left: 80px;
     height: 80px;
     width: 80px;
     background: url("../images/reset.svg");
     background-repeat: no-repeat;
+    background-position: center;
 }
 .image1 {
   width: 50px;
@@ -94,33 +104,33 @@ a:hover {
 }
 
 #brain {
-    top: 110px;
-    left: 120px;
+    top: 100px;
+    left: 150px;
     background: #F08481;
 }
 
 
 #lungs {
-    top: 250px;
-    left: 80px;
+    top: 255px;
+    left: 110px;
     background: #F79F9B;
 }
 
 #heart {
     top: 260px;
-    left: 75px;
+    left: 113px;
     background: #ED1C24;
 }
 
 #stomach {
     top: 320px;
-    left: 60px;
+    left: 105px;
     background: #C6938C;
 }
 
 #liver {
     top: 290px;
-    right: 10px;
+    left: 40px;
     height: 10px;
     width: 20px;
     background: #A84824;
@@ -128,29 +138,68 @@ a:hover {
 
 #muscles {
   top: 260px;
-  left: 40px;
+  left: 80px;
   background: #B2697B;
 }
 
 #bones {
   top: 470px;
-  right: 60px;
+  right: 15px;
   height: 80px;
   width: 10px;
   background: #F3E4DA;
 }
 
+#esophagus {
+  top: 210px;
+  right: 0px;
+  height: 10px;
+  width: 10px;
+  background: #C6938C;
+}
+
+#eyes {
+  top: 122px;
+  right: 0px;
+  height: 10px;
+  width: 10px;
+  background: #000;
+}
+
+#mouth {
+  top: 170px;
+  right: 35px;
+  height: 10px;
+  width: 10px;
+  background: #ED1C24;
+}
+
+#penisuretus {
+  top: 400px;
+  right: 50px;
+  background: #BC8EA6;
+}
+
+#blood {
+  top: 268px;
+  right: 125px;
+  height: 5px;
+  width: 10px;
+  background: #E62525;
+}
+
 .info-styles {
 	position: absolute;
   width: 300px;
-  height: 300px;
-	top: 480px;
+  height: 320px;
+	top: 200px;
 	left: 40px;
   display: inline-block;
-	padding: 2rem 2rem;
+	padding: 1rem 2rem;
 	background: #CB9BA5;
   color: #000;
 	border: 1px solid;
+  line-height: 1.4;
 }
 
 img {
@@ -161,14 +210,45 @@ img {
 #info {
   position: absolute;
   z-index: 9;
-  background: #f1f1f1;
+  background: #C6938C;
   text-align: center;
   cursor: pointer;
 }
 
-
+footer {
+  font-size: .75rem;
+}
 /* media queries */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
+}
 
+#wrapper {
+  padding: 150px 50px;
+	background: #FFFCF9;
+}
+
+#second {
+  padding: 60px 25px;
+  background: #D6A5A5;
+  text-align: center;
+}
+
+.info-styles {
+	position: absolute;
+  width: 280px;
+  height: 220px;
+	top: 580px;
+	left: 36px;
+  display: inline-block;
+	padding: .5rem .5rem;
+	background: #CB9BA5;
+  color: #000;
+	border: 1px solid;
+  line-height: 1.2;
+  font-size: .95rem;
+}
+
+footer {
+  padding: 10px;
 }

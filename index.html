@@ -4,12 +4,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title> Position Several DIVs </title>
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet">
 	<link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-
-
-
 
 
 	<div id="wrapper">
@@ -18,8 +16,13 @@
 	</div>
 
 	<div id="second">
-			 <p>About half of all Americans who keep smoking will die because of the habit. Each year more than 480,000 people in the United States die from illnesses related to tobacco use. This means each year smoking causes about 1 out of 5 deaths in the US.</p>
-			 <a href="#content"><img src="images/arrow2.png" alt="Arrow2"></a>
+		<p><h2>Cigarettes kill half of all smokers in America.</p>
+
+		<p>Over 480,000 people die every year in the United States from illnesses associated with tobacco use. This means that 1 in every 5 deaths are caused by smoking cigarettes.</p>
+
+		<p>Smoking negatively affects almost every organ in the body. In the following section, click on each organ to find out more about how smoking affects the different parts of the body.</h2></p>
+
+	<p>	<a href="#content"><img src="images/arrow2.png" alt="Arrow2"></a></p>
 	</div>
 		<!-- NOTE: this paragraph will be HIDDEN if the JS file loads -->
 		<p id="warning"><strong>JavaScript has not loaded! The circles will not be clickable.</strong></p>
@@ -27,23 +30,27 @@
 
 
 		<div id="content">
-
 			<div class="circle" id="brain" data-name=" the brain. Nicotine is as addictive as heroin and it changes your brain by adding extra nicotine receptors. In the absence of nicotine, your body experiences withdrawal"></div>
-			<div class="circle" id="lungs" data-name=" the lungs. Smoking causes inflammations of the lung's airways - causing chest tightness. This can cause irritation and cause permanent cough with mucus.
+			<div class="circle" id="lungs" data-name=" the lungs. Smoking causes inflammations of the lung's airways - causing chest tightness. The irritation causes permanent cough with mucus.
 			Smoking causes Emphysema - shortness of breath that can end in death.
-			Smoking also damages and kills cilia, tiny brush like hairs. Cilia are there to protect your lungs from dirt and mucus. Without them, you are more prone to respiratory infections and colds."></div>
+			Smoking also damages and kills cilia, tiny brush like hairs that protect your lungs from dirt and mucus preventing respiratory infections and colds"></div>
 			<div class="circle" id="heart" data-name=" the heart. The carbon monoxide inhaled from smoking makes the heart work harder than it should by decreasing the amount of oxygen present. Smoking also makes your blood thicker and sticker, damaging your blood vessels’ lining. This can cause heart attacks and high blood pressure"></div>
 			<div class="circle" id="stomach" data-name=" the stomach. Smokers have bigger stomachs than non-smokers. Smokers are also more prone to develop type 2 diabetes"></div>
-			<div class="circle" id="liver" data-name=" the liver. Smokers have a higher risk of liver cancer"></div>
+			<div class="circle" id="liver" data-name=" the liver. Smokers have a significantly higher risk of liver cancer, especially those with hepatitis B and C"></div>
 			<div class="circle" id="muscles" data-name=" the muscles. Smoking causes muscle ache and deterioration. This is due to less blood and oxygen reaching the muscles"></div>
-			<div class="circle" id="bones" data-name=" the bones. Smoking makes it hard for your body to create new bone tissue as well as loss of bone density, thinning of bone tissue, rapid breakdown of existing bone, and higher risk for fractures"></div>
-			<div class="circle" id="new" data-name=" the reset button. Select a new organ"></div>
-			<div id="info">
-			</div>
+			<div class="circle" id="bones" data-name=" the bones. Smoking makes it hard for your body to create new bone tissue. Smoker have higher loss of bone density, thinning of bone tissue, rapid breakdown of existing bone, and higher risk for fractures"></div>
+			<div class="circle" id="esophagus" data-name=" the esophagus. Smoking are twice as likely to develop adenocarcinoma of the esophagus. Smoker have even a higher chance of getting squamous cell esophageal cancer. The chances of getting esophageal cancer increases with the tabacco intake"></div>
+			<div class="circle" id="eyes" data-name=" the eyes. Smoking increases your risk of cateracts, glaucoma, dry eyes, vision loss and macular degeneration which can lead to blindness"></div>
+			<div class="circle" id="mouth" data-name=" the mouth. Smokers develop mouth sores, ulcers and gum diseases. Smoking can cause teeth loss as well as cavities. Smokers also have a high chance of developing mouth cancer"></div>
+			<div class="circle" id="penisuretus" data-name=" the penis and uterus. In men, smoking causes erectile dysfunction, hindering the ability to reach and maintain erections. Smoking can also lead to inferitlity or defects in children due to the toxins found in cigarettes, which can damage sperm. In women, smoking affects the uterus and increases the risk of ectopic pregnancies - embryo develops outside the uterus"></div>
+			<div class="circle" id="blood" data-name=" the blood. Smoking increases the number of white blood cells in your body, this can lead to heart attacks, strokes, and cancer. Smoking also causes longer healing periods due to the decreased number of nutrients. Slow wound healing can cause infection and scar decay"></div>
+			<div id="info"></div>
+			<button type="button" onClick="window.location.reload();"></button>
 		</div>
-
-
-
+<footer>
+<p> Images created by Zulema Labra.
+		Information provided by <a href="https://smokefree.gov/" target="_blank">smokefree.gov</a>, <a href="https://www.cancer.org/cancer/cancer-causes/tobacco-and-cancer/health-risks-of-smoking-tobacco.html" target="_blank">American Cancer Society</a>, and <a href="https://www.cdc.gov/tobacco/campaign/tips/diseases/cancer.html" target="_blank">Centers for Disease Control and Prevention.</a></p>
+</footer>
 
 
 <script src="scripts/main.js"></script>

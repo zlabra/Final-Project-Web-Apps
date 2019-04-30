@@ -6,14 +6,12 @@ document.addEventListener('DOMContentLoaded', () => {
 document.querySelector('#warning').style.display = 'none';
 
 
-
+// circle and boxes
 const circle = document.querySelectorAll('.circle')
-
 
 circle.forEach(function(e) {
     e.addEventListener('click', openInfo);
 });
-
 
 function openInfo() {
     let where = this.dataset.name;
@@ -21,6 +19,8 @@ function openInfo() {
     infoDiv.classList.add('info-styles');
     infoDiv.innerHTML = "You clicked" +where+ "."
 }
+
+// reset button
 
 
 
